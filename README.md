@@ -5,7 +5,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 ## Running locally
 
 - Run `npm install` to install the dependencies
-- Run `ng serve` to start up the development server;
+- Run `ng serve` to start up the development server
 
 ## Development server
 
