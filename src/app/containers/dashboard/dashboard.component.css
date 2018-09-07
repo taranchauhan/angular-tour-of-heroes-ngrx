@@ -1,0 +1,37 @@
+/* DashboardComponent's private CSS styles */
+a {
+  text-decoration: none;
+}
+*, *:after, *:before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+h3 {
+  text-align: center; margin-bottom: 0;
+}
+h4 {
+  position: relative;
+}
+.grid {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  padding: 10px 0;
+}
+.module {
+  margin: 5px;
+  padding: 20px;
+  text-align: center;
+  color: #eee;
+  background-color: #607d8b;
+  border-radius: 2px;
+  flex: 1;
+}
+
+.module:hover {
+  background-color: #eee;
+  cursor: pointer;
+  color: #607d8b;
+}
